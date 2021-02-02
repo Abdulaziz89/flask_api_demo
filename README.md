@@ -49,5 +49,31 @@ To deploy your app to AWS Elastic Beanstalk, group the following files in a zip 
 
 ## 4. Deploy the app
 
-Create a new Amazon Beanstalk and upload your code. 
+Create a new Amazon Account at https://aws.amazon.com/education/awseducate/.
+Go to your AWS Console.
+Create a new Elastic Beanstalk, and add a new application, select Python as your platform
+Upload your code. 
 
+
+## 5. Test the app
+
+Get a list of all the companies
+  ```
+http://[yourdomain.com]/api/v1/resources/companies/
+  ```
+  
+Get info for a specfic company 
+  ```
+http://[yourdomain.com]/api/v1/resources/companies/apple
+  ```
+
+Add a new company 
+  ```
+run the following command
+curl -X POST http://[yourdomain.com]/api/v1/resources/companies -H "Content-type:application/json" -d "{\"name\":\"test\",\"revenue\":\"500\",\"employees\":\"111\"}"
+  ```
+  
+Delete an existing company
+  ```
+run the following command
+curl -X DELETE http://[yourdomain.com]/api/v1/resources/companies/test   ```
