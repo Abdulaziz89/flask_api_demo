@@ -50,8 +50,11 @@ To deploy your app to AWS Elastic Beanstalk, group the following files in a zip 
 ## 4. Deploy the app
 
 Create a new Amazon Account at https://aws.amazon.com/education/awseducate/.
+
 Go to your AWS Console.
+
 Create a new Elastic Beanstalk, and add a new application, select Python as your platform
+
 Upload your code. 
 
 
