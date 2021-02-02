@@ -25,7 +25,12 @@ You can optionally use a [virtual environment](https://packaging.python.org/inst
   ```
 pip install -r requirements.txt
   ```
-
+  
+Create the SQLite DB.
+  ```
+python create_db.py
+  ```
+  
 Run the app.
   ```
 python application.py
@@ -40,6 +45,7 @@ To deploy your app to AWS Elastic Beanstalk, group the following files in a zip 
 - requirements.txt
 - application.py
 - data.txt
+- database.db
 
 ## 4. Deploy the app
 
