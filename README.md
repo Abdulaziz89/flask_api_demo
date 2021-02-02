@@ -12,7 +12,7 @@ To get started, you can go through this sample Python Flask app, that will help 
 
 Clone the repo and change to the directory where the sample app is located.
   ```
-git clone https://github.com/Abdulaziz89/RESSTDEMO
+git clone https://github.com/Abdulaziz89/flask_api_demo.git
 cd flask_api_demo
   ```
 
